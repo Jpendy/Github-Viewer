@@ -38,7 +38,6 @@ export default class MainContainer extends Component {
           <ShortForm userName={userName} onChange={this.handleChange} onSubmit={this.handleSubmit} />
           <Display name={login || ''} followerCount={followers || 0} followingCount={following || 0} githubLink={html_url || ''} />
           <List  repoList={repos} />
-          <div>hello</div>
         
         </>
       );   

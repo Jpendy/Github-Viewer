@@ -5,7 +5,7 @@ const List = ({ repoList }) => {
     
   const listElements = repoList.map(item => {
     return (<li key={ item }>
-      { item.name }
+      <a href={item.svn_url}>{ item.svn_url }</a>  
     </li>);
   });
 
