@@ -1,7 +1,6 @@
 import React from 'react';
-import ShortForm from '../short-form/ShortForm';
-import Display from '../display/Display';
+import MainContainer from '../../containers/MainContainer';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <MainContainer />;
 }

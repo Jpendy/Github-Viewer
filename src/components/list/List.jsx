@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const List = ({ repoList }) => {
     
   const listElements = repoList.map(item => {
-    <li key={ item }>
-      { item }
-    </li>;
+    return (<li key={ item }>
+      { item.name }
+    </li>);
   });
 
   return (
@@ -18,7 +18,7 @@ const List = ({ repoList }) => {
 };
 
 List.propTypes = {
-  repoList: PropTypes.arrayOf(PropTypes.string).isRequired
+  repoList: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
 export default List;

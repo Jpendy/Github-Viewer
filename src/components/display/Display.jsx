@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = ({ name, followerCount, followingCount, githubLink }) => (
+const Display = ({ name = '', followerCount = 0, followingCount = 0, githubLink = '' }) => (
   <p>
     { `Name: ${name} - Follower Count: ${followerCount} - Following Count: ${followingCount} - Github Link: ${githubLink}` }
   </p>
