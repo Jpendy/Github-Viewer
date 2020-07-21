@@ -9,8 +9,8 @@ const Display = ({ name, followerCount, followingCount, githubLink }) => (
 
 Display.propTypes = {
   name: PropTypes.string.isRequired,
-  followerCount: PropTypes.string.isRequired,
-  followingCount: PropTypes.string.isRequired,
+  followerCount: PropTypes.number.isRequired,
+  followingCount: PropTypes.number.isRequired,
   githubLink: PropTypes.string.isRequired  
 };
 
