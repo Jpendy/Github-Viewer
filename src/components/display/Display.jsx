@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = ({ name = '', followerCount = 0, followingCount = 0, githubLink = '' }) => (
+const Display = ({ name, followerCount, followingCount, githubLink }) => (
   <p>
-    { `Name: ${name} - Follower Count: ${followerCount} - Following Count: ${followingCount} - Github Link: ${githubLink}` }
+    { `Name: ${name} - Follower Count: ${followerCount} - Following Count: ${followingCount} - Github Link: `}<a href={githubLink} >{githubLink}</a>
   </p>
 );
 
