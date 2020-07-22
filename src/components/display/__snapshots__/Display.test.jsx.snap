@@ -2,6 +2,11 @@
 
 exports[`Display component renders Display 1`] = `
 <p>
-  Name: sampleName - Follower Count: 1 - Following Count: 1 - Github Link: sample link
+  Name: sampleName - Follower Count: 1 - Following Count: 1 - Github Link: 
+  <a
+    href="sample link"
+  >
+    sample link
+  </a>
 </p>
 `;

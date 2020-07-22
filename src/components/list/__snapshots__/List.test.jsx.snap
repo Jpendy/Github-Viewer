@@ -4,9 +4,13 @@ exports[`List component renders List 1`] = `
 <ul>
   <li
     key="[object Object]"
-  />
+  >
+    <a />
+  </li>
   <li
     key="[object Object]"
-  />
+  >
+    <a />
+  </li>
 </ul>
 `;

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Display = ({ name, followerCount, followingCount, githubLink }) => (
   <p>
-    { `Name: ${name} - Follower Count: ${followerCount} - Following Count: ${followingCount} - Github Link: `}<a href={githubLink} >{githubLink}</a>
+    { `Name: ${name} - Follower Count: ${followerCount} - Following Count: ${followingCount} - Github Link: `}<a href={githubLink}>{ githubLink }</a>
   </p>
 );
 
